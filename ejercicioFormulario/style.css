@@ -1,0 +1,47 @@
+:root {
+    --darkmode: #101011;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: var(--darkmode);
+  }
+  header{
+    margin-bottom: 20px;
+  }
+  h1 {
+    margin: 20px 20px;
+    color: #fff;
+    text-align: center;
+  }
+
+  form{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+ .frase{
+    text-align: center;
+ }
+
+  label{
+    color: #fff;
+  }
+  input{
+    padding: 5px;
+    border-radius: 5px;
+
+  }
+
+  div{
+    padding: 5px;
+    margin: 10px 10px;
+  }
